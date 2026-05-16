@@ -2808,7 +2808,6 @@
             "uri": "ontextualWMSLegend=0&crs=EPSG:placeholder&dpiMode=7&featureCount=10&format=image/png&tilePixelRatio=0&url=https://opendata.lgln.niedersachsen.de/doorman/noauth/verwaltungsgrenzen_wms&layers=ni_fluren_umringe&layers=ni_fluren_bezeichnung&styles=&styles=",
             "opacity": 0.75
           }
-        "seperator": true,
         }
       },
       "bodenrichtwerte Aktuell": {
