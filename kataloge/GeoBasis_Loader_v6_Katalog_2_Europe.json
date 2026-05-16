@@ -338,7 +338,7 @@
         "name": "ES: Cadastral Parcel (WMS)",
         "type": "ogc_wms",
         "valid_epsg": ["EPSG:25828", "EPSG:25829", "EPSG:25830", "EPSG:25831", "EPSG:3857", "EPSG:4258", "EPSG:4326"],
-        "uri": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&featureCount=10&format=image/png&layers=CadastralParcel&styles=CP.CadastralParcel.Default&tilePixelRatio=0&url=https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx"
+        "uri": "contextualWMSLegend=0&crs=EPSG:4326&format=PNG&layers=catastro&url=https://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx"
       }
     }
   }
