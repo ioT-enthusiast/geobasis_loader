@@ -2808,14 +2808,15 @@
             "uri": "ontextualWMSLegend=0&crs=EPSG:placeholder&dpiMode=7&featureCount=10&format=image/png&tilePixelRatio=0&url=https://opendata.lgln.niedersachsen.de/doorman/noauth/verwaltungsgrenzen_wms&layers=ni_fluren_umringe&layers=ni_fluren_bezeichnung&styles=&styles=",
             "opacity": 0.75
           }
+        "seperator": true,
         }
       },
-      "bodenrichtwerte": {
-        "name": "NI: Bodenrichtwerte Bauland 2024 (WMS)",
+      "bodenrichtwerte Aktuell": {
+        "name": "NI: Bodenrichtwerte Bauland Aktuell (WMS)",
         "type": "ogc_wms",
         "valid_epsg": ["EPSG:25832", "EPSG:25833", "EPSG:4326", "EPSG:31466", "EPSG:31467", "EPSG:31468", "EPSG:3857"],
         "uri": "crs=EPSG:placeholder&format=image/png&dpiMode=7&tilePixelRatio=0&Request=GetMap&Version=1.3.0&layers=Bauland&styles&url=https://opendata.lgln.niedersachsen.de/doorman/noauth/boris_wms",
-        "seperator": true,
+       "seperator": true,
         "opacity": 0.75
       },
       "flustuecke_wfs": {
