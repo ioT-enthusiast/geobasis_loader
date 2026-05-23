@@ -332,13 +332,13 @@
         "name": "ES: Ortoimágenes de España (WMTS)",
         "type": "ogc_wmts",
         "valid_epsg": ["EPSG:25828", "EPSG:25829", "EPSG:25830", "EPSG:25831", "EPSG:3857", "EPSG:4258", "EPSG:4326"],
-        "uri": "contextualWMSLegend=0&crs=EPSG:4326&dpiMode=7&featureCount=10&format=image/png&layers=OI.OrthoimageCoverage&styles=normal&tileMatrixSet=google3857&tilePixelRatio=0&url=https://www.ign.es/wmts/pnoa-ma?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0"
+        "uri": "crs=EPSG:25830&dpiMode=7&featureCount=10&format=image/png&layers=OI.OrthoimageCoverage&styles=normal&tileMatrixSet=google3857&tilePixelRatio=0&url=https://www.ign.es/wmts/pnoa-ma?SERVICE=WMTS&VERSION=1.0.0"
       },
       "flurstuecke": {
         "name": "ES: Cadastral Parcel (WMS)",
         "type": "ogc_wms",
         "valid_epsg": ["EPSG:25828", "EPSG:25829", "EPSG:25830", "EPSG:25831", "EPSG:3857", "EPSG:4258", "EPSG:4326"],
-        "uri": "contextualWMSLegend=0&crs=EPSG:4326&format=PNG&layers=catastro&url=https://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx"
+        "uri": "contextualWMSLegend=0&crs=EPSG:25830&format=PNG&layers=CP.CadastralParcel&url=https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx"
       }
     }
   }
